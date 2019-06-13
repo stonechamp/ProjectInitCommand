@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function create(){
-    cd
+    cd /Users/stone/Dev/ProjectInitCommand
     python create.py $1
     cd /Users/stone/Dev/$1
     git init

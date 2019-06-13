@@ -2,10 +2,10 @@ import sys
 import os
 from github import Github
 
-path = "/Users/kalle/Documents/Projects/MyProjects/"
+path = "/Users/stone/Dev/"
 
-username = ""
-password = ""
+username = "stonechamp"
+password = "stoner99"
 
 
 def create():
@@ -16,5 +16,5 @@ def create():
     print("Succesfully created repository {}".format(sys.argv[1]))
 
 
-if __name__ == "__main--":
+if __name__ == "__main__":
     create()
