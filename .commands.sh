@@ -2,7 +2,7 @@
 
 function create(){
     cd /Users/stone/Dev/ProjectInitCommand
-    python create.py $1
+    python3 create.py $1
     cd /Users/stone/Dev/$1
     git init
     git remote add origin git@github.com:stonechamp/$1.git
